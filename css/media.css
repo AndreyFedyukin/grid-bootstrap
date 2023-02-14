@@ -1,0 +1,353 @@
+/* // Устройства X-Small (портретные телефоны, менее 576 пикселей) */
+/* !Нет медиа-запроса для `xs`, так как это значение по умолчанию в Bootstrap */
+@media (min-width: 320px) {
+  .container {
+    padding: 0 15px;
+  }
+  /* Секция Header ==================================== */
+  .header-left img {
+    max-width: 72px;
+  }
+  .header-left,
+  .header-right {
+    margin: 0;
+  }
+  /* Секция 3D ==================================== */
+  .block-3d__right {
+    display: none;
+  }
+  .block-3d__left {
+    padding-top: 35px;
+  }
+  .block-3d__left h1 {
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+  .block-3d__left p {
+    font-size: 16px;
+    line-height: 132%;
+    margin-bottom: 45px;
+  }
+  .block-3d__btn {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 18px 52px;
+    margin-bottom: 45px;
+  }
+  /* Секция Обучение ==================================== */
+  .block-training {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .block-training__img {
+    display: none;
+  }
+  .block-training__text h2 {
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 1px;
+  }
+  .block-training__link {
+    margin-bottom: 30px;
+  }
+  .block-training__link p {
+    margin: 0;
+  }
+  /* Секция Преподаватели ==================================== */
+  .block-teachers {
+    padding-top: 47px;
+    padding-bottom: 22px;
+  }
+  .block-teachers h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .block-teachers__list {
+    margin-bottom: 23px;
+  }
+  /* Секция Курсы ==================================== */
+  .block-courses {
+    padding-top: 46px;
+    padding-bottom: 44px;
+  }
+  .block-courses__header {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+  .block-courses__card {
+    margin-bottom: 3px;
+  }
+  .block-course__link {
+    height: 656px;
+  }
+  .block-courses__img {
+    max-width: 100%;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  .block-course__clock {
+    top: 10px;
+    right: 9px;
+  }
+  .block-courses__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 29px;
+  }
+  .block-courses__txt {
+    margin-bottom: 81px;
+  }
+  .block-courses__txt h3 {
+    max-width: 193px;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0 0 8px 0;
+  }
+  .block-courses__txt p {
+    margin: 0;
+  }
+  .block-courses__btn {
+    padding: 19px 54px;
+    margin: 0 0 30px 0;
+  }
+}
+
+/* !Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше) */
+@media (min-width: 576px) {
+  .container {
+    padding: 0 33px;
+  }
+  /* Секция Header ==================================== */
+  .header__custom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .header-left {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .header-left img {
+    max-width: 100%;
+  }
+  .header-right {
+    max-width: 100%;
+    padding: 0 12px;
+  }
+  .header-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Секция Курсы 3D ==================================== */
+  .block-3d__left {
+    padding-top: 115px;
+  }
+  .block-3d__left h1 {
+    font-size: 50px;
+    padding-bottom: 12px;
+  }
+  .block-3d__left p {
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 62px;
+  }
+  .block-3d__btn {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 22px 74px;
+    margin-bottom: 129px;
+  }
+  /* Секция Обучение ==================================== */
+  .block-training {
+    padding-top: 80px;
+    padding-bottom: 25px;
+  }
+  .block-training__img {
+    max-width: 28%;
+    display: inline-block;
+    background-position: top;
+  }
+  .block-training__text h2 {
+    font-size: 40px;
+    line-height: 100%;
+    margin-bottom: 18px;
+  }
+  .block-training__link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .block-training__link img {
+    margin: 0 0 9px;
+  }
+  /* Секция Преподаватели ==================================== */
+  .block-teachers {
+    padding-top: 74px;
+    padding-bottom: 47px;
+  }
+  .block-teachers h2 {
+    font-size: 40px;
+  }
+  /* Секция Курсы ==================================== */
+  .block-courses {
+    padding-top: 75px;
+    padding-bottom: 77px;
+  }
+  .block-courses__header {
+    font-size: 40px;
+    line-height: 100%;
+    margin-bottom: 22px;
+  }
+  .block-courses__content {
+    align-items: center;
+    padding: 0 30px;
+  }
+  .block-courses__txt {
+    margin-bottom: 35px;
+  }
+  .block-courses__btn {
+    padding: 19px 48px;
+  }
+}
+
+/* !Устройства Medium (планшеты, 768 пикселей и выше) */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 39px;
+  }
+  /* Секция Header ==================================== */
+  .header-left {
+    margin: 0;
+  }
+  .header-right {
+    padding: 0;
+  }
+  .header-menu {
+    max-width: 100%;
+    justify-content: end;
+  }
+  .header-menu__item {
+    margin-right: 49px;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0;
+  }
+  /* Секция 3D ==================================== */
+  .block-3d__left p {
+    max-width: 100%;
+  }
+  .block-3d__right {
+    display: inline-block;
+  }
+  /* Секция Обучение ==================================== */
+  .block-training {
+    padding-bottom: 45px;
+  }
+  .block-training__link {
+    max-width: 210px;
+  }
+  .block-training__img {
+    max-width: 29%;
+    background-position: center;
+  }
+  /* Секция Преподаватели ==================================== */
+  /* Секция Курсы ==================================== */
+  .block-course__link {
+    height: 100%;
+  }
+  .block-courses__content {
+    /* height: 346px; */
+    align-items: flex-start;
+    padding: 0 30px;
+  }
+  .block-courses__img {
+    margin-bottom: 33px;
+  }
+  .block-courses__txt {
+    margin-bottom: 30px;
+  }
+  .block-courses__txt h3 {
+    max-width: 100%;
+  }
+  .block-courses__btn {
+    padding: 19px 55px;
+  }
+}
+
+/* !Устройства Large (настольные компьютеры, 992 пикселей и выше) */
+@media (min-width: 992px) {
+  .container {
+    padding: 0 165px;
+  }
+  /* Секция Header ==================================== */
+  .block-3d__left h1 {
+    font-size: 60px;
+    padding-bottom: 24px;
+  }
+  /* Секция 3D ==================================== */
+  .block-3d__btn {
+    margin-bottom: 124px;
+  }
+  /* Секция Обучение ==================================== */
+  .block-training {
+    padding: 81px 0 47px;
+  }
+  .block-training__img {
+    max-width: 160px;
+    background-position: top;
+    margin-top: 19px;
+  }
+  .block-training__text {
+    max-width: 53%;
+  }
+  .block-training__text h2 {
+    margin-bottom: 16px;
+  }
+  .block-training__link {
+    max-width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .block-training__link img {
+    margin: 0 35px 0 0;
+  }
+  .block-teachers__list p {
+    max-width: 254px;
+  }
+  /* Секция Преподаватели ==================================== */
+  .block-teachers {
+    padding-top: 76px;
+    padding-bottom: 52px;
+  }
+  .block-teachers h2 {
+    margin-bottom: 22px;
+  }
+  /* Секция Курсы ==================================== */
+  .block-courses {
+    padding: 74px 0 74px;
+  }
+  .block-courses__img {
+    margin-bottom: 0px;
+  }
+  .block-courses__content {
+    padding: 33px 30px 28px;
+  }
+  .block-courses__txt {
+    margin-bottom: 50px;
+  }
+  .block-courses__btn {
+    padding: 20px 58px;
+    margin: 0;
+  }
+}
+
+/* !Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше) */
+@media (min-width: 1200px) {
+}
+
+/* !Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и выше) */
+@media (min-width: 1400px) {
+}

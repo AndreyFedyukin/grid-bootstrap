@@ -1,0 +1,477 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/roboto-v29-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v29-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/roboto-v29-latin_cyrillic-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v29-latin_cyrillic-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-dark: #333333;
+  --color-darkblue: #2e2b44;
+  --color-verydarkdb: #212133;
+  --color-darkgrayishblue: #85859b;
+  --color-gray: #666666;
+  --color-lightgray: #e5e5e5;
+  --color-lightgrayishblue: #edf0f9;
+  --color-darkgray: #424242;
+  --color-black: #000000;
+  --color-skillbox: #3f2aff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+button:hover {
+  cursor: pointer;
+}
+
+a,
+button:active,
+:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+}
+
+/* !Для более удобной визуализации во время вёртки */
+/* div {
+  outline: 1px solid red;
+} */
+
+.container {
+  max-width: 1440px;
+  padding: 0 165px;
+}
+
+/* Секция Header ==================================== */
+.header {
+  background: var(--color-skillbox);
+  padding: 11px 0 13px;
+}
+
+.header-menu__item {
+  margin-right: 41px;
+}
+
+.header-menu__item:last-child {
+  margin-right: 0px;
+}
+
+.header-menu__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header-menu__link:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  padding-right: 0;
+}
+
+/* Секция 3D ==================================== */
+.block-3d {
+  max-width: 100%;
+  background: radial-gradient(
+    44.07% 44.07% at 67.78% 55.93%,
+    #555681 0%,
+    #212133 100%
+  );
+  padding-top: 95px;
+  padding-bottom: 6px;
+}
+
+.block-3d__left h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: var(--color-white);
+  margin-bottom: 28px;
+}
+
+.block-3d__left p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  align-items: center;
+  color: var(--color-white);
+  margin-bottom: 62px;
+}
+
+.block-3d__btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: var(--color-white);
+  background: var(--color-skillbox);
+  border-radius: 20px;
+  border-color: transparent;
+  padding: 22px 74px;
+  margin-bottom: 124px;
+}
+
+.block-3d__right {
+  background-image: url(../img/Group-95.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+/* Секция Обучение ==================================== */
+.block-training {
+  max-width: 100%;
+  background: var(--color-lightgray);
+  padding: 81px 0 75px;
+}
+
+.block-training__info {
+  margin-bottom: 24px;
+}
+
+.block-training__img {
+  background-image: url(../img/Vectary_texture.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 20px 0 12px;
+}
+
+.block-training__text h2 {
+  max-width: 380px;
+  color: var(--color-darkblue);
+  margin-bottom: 15px;
+}
+
+.block-training__text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  color: var(--color-gray);
+}
+
+.block-training__link {
+  display: flex;
+  align-items: flex-start;
+}
+
+.img-eye {
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/circle-eye.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  margin: 0 30px 0 0;
+}
+
+.img-fingers {
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/circle-fingers.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  margin: 0 30px 0 0;
+}
+
+.img-mega {
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/circle-mega.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  margin: 0 30px 0 0;
+}
+
+.block-training__link p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  align-items: center;
+  color: var(--color-gray);
+  margin-top: 10px;
+}
+
+/* Секция Преподаватели ==================================== */
+.block-teachers {
+  width: 100%;
+  background: var(--color-verydarkdb);
+  padding: 74px 0;
+}
+
+.block-teachers__link {
+  border: none;
+  background-color: transparent;
+}
+
+.block-teachers__link img {
+  max-width: 100%;
+  border-radius: 23px 23px 0px 0px;
+  margin-bottom: 39px;
+}
+
+.block-teachers__list {
+  padding: 0;
+}
+
+.block-teachers__list h3 {
+  color: var(--color-white);
+  margin-bottom: 7px;
+}
+
+.block-teachers__list p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-darkgrayishblue);
+}
+
+/* Секция Курсы ==================================== */
+.block-courses {
+  background: var(--color-lightgray);
+  padding: 74px 0 75px;
+}
+
+.block-courses__header {
+  color: #212133;
+  margin-bottom: 23px;
+}
+
+.block-course__link {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-lightgrayishblue);
+  border-radius: 20px;
+}
+
+.block-courses__img {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+  flex-shrink: 0;
+}
+
+.block-course__clock {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.block-course__clock-img {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/mdi_access_time.svg);
+  margin: 0px 5px 0px 0px;
+}
+
+.block-course__clock span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--color-white);
+}
+
+.block-courses__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 100%;
+  padding: 30px 30px 15px;
+}
+
+.block-courses__txt {
+  margin-bottom: 50px;
+}
+
+.block-courses__txt h3 {
+  margin: 0px 0px 7px;
+}
+
+.block-courses__txt p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-gray);
+}
+
+.block-courses__btn {
+  background: var(--color-skillbox);
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  color: var(--color-white);
+  border-color: transparent;
+  padding: 20px 57px;
+  margin: 0 0px 15px;
+}
+
+/* Секция Footer ==================================== */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-darkblue);
+  margin-bottom: 3px;
+}
+
+.footer__social {
+  padding: 27px 0 24px;
+}
+
+.footer__box {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  margin: 0 26px 0 0;
+}
+
+.footer__box:last-child {
+  margin: 0;
+}
+
+.footer__box:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.facebook {
+  background-image: url(../img/Facebook.svg);
+}
+
+.twitter {
+  background-image: url(../img/Twitter.svg);
+}
+
+.instagram {
+  background-image: url(../img/Instagram.svg);
+}
+
+.youtube {
+  background-image: url(../img/YouTube.svg);
+}
+
+.footer-logo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: var(--color-darkblue);
+}
+
+.footer-logo span {
+  color: var(--color-skillbox);
+}
