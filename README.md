@@ -1,6 +1,6 @@
 # Grid
 <br>
-## Пример работы с использованием сетки. /Skillbox/
+## Пример работы с использованием сетки Bootstrap v4. /Skillbox/
 
 ##### Ссылка на сайт https://andreyfedyukin.github.io/Grid/
 
