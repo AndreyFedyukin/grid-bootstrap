@@ -2,7 +2,7 @@
 <br>
 ## Пример работы с использованием сетки Bootstrap v4. /Skillbox/
 
-##### Ссылка на сайт https://andreyfedyukin.github.io/Grid/
+##### Ссылка на сайт https://andreyfedyukin.github.io/Grid-Bootstrap/
 
 ---
 
