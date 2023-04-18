@@ -1,4 +1,4 @@
-# Grid
+# Grid Bootstrap
 <br>
 ## Пример работы с использованием сетки Bootstrap v4. /Skillbox/
 
