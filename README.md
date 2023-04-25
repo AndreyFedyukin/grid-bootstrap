@@ -1,3 +1,5 @@
+![Ссылка на изображение](https://andreyfedyukin.github.io/Grid-Bootstrap/img/skillbox-white.svg)
+
 # Grid Bootstrap
 <br>
 ## Пример работы с использованием сетки Bootstrap v4. /Skillbox/
