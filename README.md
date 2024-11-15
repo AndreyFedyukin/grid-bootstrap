@@ -1,4 +1,4 @@
-![Ссылка на изображение](https://andreyfedyukin.github.io/Grid-Bootstrap/img/skillbox-white.svg)
+![Ссылка на изображение](https://andreyfedyukin.github.io/grid-bootstrap/img/skillbox-white.svg)
 
 # Grid Bootstrap
 <br>
